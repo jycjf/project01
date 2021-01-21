@@ -17,7 +17,7 @@ public partial class login : System.Web.UI.Page
 
         UserName.Value = "manager";
         Password.Value = "123";
-        if (!IsPostBack)
+        if (!IsPostBack)   //注释
         {
 
         }
